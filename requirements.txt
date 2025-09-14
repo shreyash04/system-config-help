@@ -1,0 +1,39 @@
+# Data Processing
+numpy
+pandas
+scipy
+scikit-learn
+
+# Data Visualization
+matplotlib
+seaborn
+plotly
+
+# Jupyter and Notebook Environments
+jupyter
+ipykernel
+notebook
+jupyterlab
+
+# Natural Language Processing
+nltk
+spacy
+gensim
+transformers
+textblob
+
+# Machine Learning and Deep Learning
+torch
+tensorflow
+keras
+xgboost
+lightgbm
+catboost
+
+# Computer Vision and Image Processing
+opencv-python
+pillow
+scikit-image
+imageio
+albumentations
+torchvision

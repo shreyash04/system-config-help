@@ -23,6 +23,18 @@ Get-ChildItem -Directory | Select-Object Name,@{N='Size(GB)';E={((Get-ChildItem 
 ```
 
 ## System Health Diagnostics
+
+### Review and uninstall desktop programs
+
+1. Press **Windows + R** to open Run.
+2. Type `appwiz.cpl` and press **Enter** to open **Control Panel > Programs > Programs and Features**. Opening the list is read-only.
+3. Find the exact program and version. Check the **Publisher** column if entries have similar names.
+4. To remove the program, select **Uninstall** or **Uninstall/Change** and follow the vendor's prompts. Windows may request administrator approval.
+5. If the uninstaller reports an error, record the exact message and any log path it displays. Use the vendor's recovery steps before attempting manual cleanup.
+6. Refresh the list after the uninstaller finishes and confirm the entry is gone. Some apps are listed under **Settings > Apps > Installed apps**.
+
+[Microsoft's Windows app removal instructions](https://support.microsoft.com/en-us/windows/apps/uninstall-or-remove-apps-and-programs-in-windows)
+
 ### Battery Status
 Generate battery health report:
 ```powershell
